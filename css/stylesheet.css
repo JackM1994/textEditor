@@ -1,0 +1,56 @@
+/* ------------------
+    Animation Styles
+   ------------------
+*/
+
+#green-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 10px;
+}
+
+.red-square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+/* ------------------
+    formValidation Styles
+   ------------------
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+input {
+    padding: 5px 5px 12px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid grey; 
+    width: 320px;
+    
+}
+label{
+    position: relative;
+    top: 12px;
+    width: 150px;
+    float: left;
+}
+#wrapper{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.form-element{
+    margin-bottom: 10px;
+}
+
+#submitButton {
+    width: 130px;
+    margin-left: 200px;
+}
